@@ -1,0 +1,25 @@
+{
+  "name": "KunYi's Resume",
+  "short_name": "Resume",
+  "icons": [{
+        "src": "images/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      }, {
+        "src": "images/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "images/mstile-150x150.png",
+        "sizes": "150x150",
+        "type": "image/png"
+      }, {
+        "src": "images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}

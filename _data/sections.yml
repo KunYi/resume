@@ -1,0 +1,25 @@
+# Use this to define the sections of the resume
+# Format:
+#   name -> Name displayed on the section
+#   id -> used for the CSS id and the yml file name. 
+#   layout -> which resume format to use from _includes/resume
+
+- name: 聯絡方式
+  id: contact
+  layout: list 
+
+- name: 工作經歷
+  id: experience
+  layout: block
+
+- name: 學歷
+  id: education
+  layout: block
+
+- name: 專業技能 
+  id: skills
+  layout: cloud
+
+- name: Honors
+  id: honors
+  layout: list
