@@ -1,33 +1,22 @@
 - Languages:
     primary:
-      - Python
-      - PHP
+      - C/C++
     secondary:
+      - Java
+      - Assembly
       - Bash
-      - Ruby
-      - Matlab
-      - Javascript
-- Frameworks:
+      - Python
+- Hardware:
     primary:
-      - Flask
-      - Puppet
+      - 手機相關射頻電路
+      - 單晶片與數位電路設計
     secondary:
-      - Chef
-      - Rails
+      - 音頻相關電路設計
 - Systems:
     primary:
-      - Debian
-      - Docker
-      - Jenkins
+      - Yocto Linux 
+      - Android  
+      - Windows  
     secondary:
-      - Nginx
-      - Logstash
-      - AWS
-- Technical:
-    primary:
-      - Statistics
-      - Operations Research
-    secondary:
-      - Signal Analysis
-      - AWS
-      - Artificial Intelligence
+      - FreeRTOS 
+
