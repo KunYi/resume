@@ -6,7 +6,7 @@
     <body>
         {{ content }}
 		<!-- Javascript -->
-		{% asset jquery.js %}
+		<script type="text/javascript" href="assets/jquery.js"></script>
 			<script type="text/javascript">
 				labels = [
 					{% for section in site.data.sections %}
@@ -14,6 +14,6 @@
 					{% endfor %}
 				];
 			</script>
-		{% asset main.js %}
+		<script type="text/javascript" href="assets/main.js"></script>
     </body>
 </html>
