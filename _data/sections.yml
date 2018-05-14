@@ -4,10 +4,6 @@
 #   id -> used for the CSS id and the yml file name. 
 #   layout -> which resume format to use from _includes/resume
 
-- name: 聯絡方式
-  id: contact
-  layout: list 
-
 - name: 工作經歷
   id: experience
   layout: block
@@ -20,6 +16,10 @@
   id: skills
   layout: cloud
 
-- name: Honors
-  id: honors
+- name: 參考資料
+  id: reference
+  layout: list
+
+- name: 聯絡方式
+  id: contact
   layout: list
