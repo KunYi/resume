@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        {% include layout/head.html %}
+    </head>
+    <body>
+        {{ content }}
+		<!-- Javascript -->
+		{% js jquery %}
+			<script type="text/javascript">
+				labels = [
+					{% for section in site.data.sections %}
+							"{{section.id}}",
+					{% endfor %}
+				];
+			</script>
+		{% js main %}
+    </body>
+</html>
