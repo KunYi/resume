@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="{{ page.lang }}">
     <head>
         {% include layout/head.html %}
     </head>
@@ -9,7 +9,13 @@
 		<script type="text/javascript" src="assets/jquery.js"></script>
 			<script type="text/javascript">
 				labels = [
-					{% for section in site.data.sections %}
+					{% if page.lang == 'en' %} <!-- English -->
+					{% assign nsections = site.data.sections %}
+					{% endif %}
+					{% if page.lang == 'zh' %} <!-- 中文 -->
+					{% assign nsections = site.data.zh.sections %}
+					{% endif %}
+					{% for section in nsections %}
 							"{{section.id}}",
 					{% endfor %}
 				];

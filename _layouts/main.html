@@ -1,10 +1,24 @@
 ---
 layout: default
 ---
+{% if page.lang == 'en' %}
+{% assign logo = site.title.en %}
+{% endif %}
+{% if page.lang == 'zh' %}
+{% assign logo = site.title.zh %}
+{% endif %}
 <header class="app-bar promote-layer">
 	<div class="app-bar-container">
 		<button class="menu"><img src="images/hamburger.svg" alt="menu"></button>
-		<h1 class="logo">{{ site.title }}</h1>
+		<h1 class="logo">{{ logo }}</h1>
+		<span class="logo" style="text-align: right; float: inline-end;">
+		{% if page.lang == 'en' %}
+		En / <a href="index-zh.html#">中文</a>
+		{% endif %}
+		{% if page.lang == 'zh' %}
+		<a href="index.html#">En</a> / 中文
+		{% endif %}
+		</span>
 	</div>
 </header>
  

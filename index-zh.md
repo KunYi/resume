@@ -1,5 +1,5 @@
 ---
 layout: resume
-lang: en
+lang: zh
 ref: index
 ---

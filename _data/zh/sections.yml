@@ -4,22 +4,22 @@
 #   id -> used for the CSS id and the yml file name. 
 #   layout -> which resume format to use from _includes/resume
 
-- name: Experience
+- name: 工作經歷
   id: experience
   layout: block
 
-- name: Education
+- name: 學歷
   id: education
   layout: block
 
-- name: Skills
+- name: 專業技能 
   id: skills
   layout: cloud
 
-- name: Reference
+- name: 參考資料
   id: reference
   layout: list
 
-- name: Contact
+- name: 聯絡方式
   id: contact
   layout: list
