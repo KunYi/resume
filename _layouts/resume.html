@@ -5,9 +5,11 @@ layout: main
     <ul>
 		{% if page.lang == 'en' %} <!-- for English -->
 		{% assign nsections = site.data.sections %}
+		{% assign ndata = site.data %}
 		{% endif %}
 		{% if page.lang == 'zh' %} <!-- 中文 -->
 		{% assign nsections = site.data.zh.sections %}
+		{% assign ndata = site.data.zh %}
 		{% endif %}
 
         {% for section in nsections %}
@@ -23,7 +25,7 @@ layout: main
             </h2>
             <hr />
             {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
-            {% for hash in site.data %}
+            {% for hash in ndata %}
               {% if hash[0] == section.id %}
                 {% assign blurb = hash[1] %}
                 {% include {{section_layout}} %}
