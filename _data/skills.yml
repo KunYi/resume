@@ -8,10 +8,14 @@
       - Python
 - Hardware:
     primary:
-      - 手機相關射頻電路
-      - 單晶片與數位電路設計
+      - MCUs(8051/AVR/Cortex Mx)
+      - UART/I2C/SPI/USB
+      - MIPI DSI/CSI
+      - Display port 
+      - Digital logical circuts
+      - RF design of Cellur phone
     secondary:
-      - 音頻相關電路設計
+      - Audio circuts application
 - Systems:
     primary:
       - Yocto Linux 
