@@ -1,3 +1,4 @@
+
 .cloud-section {
   margin-top: 10px; }
   .cloud-section h3 {
@@ -2512,6 +2513,28 @@ body.open, .app-bar {
   color: inherit;
   font-weight: 400; }
 
+.app-bar .lang {
+  text-decoration: none;
+  float: right;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  padding: 4px; }
+
+.app-bar .lang a {
+  text-decoration: none;
+  color: #fefefe; }
+
+.app-bar .lang a:hover {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.app-bar .lang a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: 0; }
+
+.app-bar .lang a:active {
+  background-color: rgba(255, 255, 255, 0.4); }
+
 .app-bar-actions {
   display: flex;
   flex-direction: row;
@@ -2639,6 +2662,26 @@ main {
     line-height: 130px;
     font-size: 46px; }
 
+  .app-bar .lang {
+    text-decoration: none;
+    float: right;
+    line-height: 130px;
+    font-size: 32px; }
+
+  .app-bar .lang a {
+    text-decoration: none;
+    color: #fefefe; }
+
+  .app-bar .lang a:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
+
+  .app-bar .lang a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: 0; }
+
+  .app-bar .lang a:active {
+    background-color: rgba(255, 255, 255, 0.4); }
+
   .app-bar-actions {
     float: right; }
 
@@ -2681,6 +2724,7 @@ main {
 
   body {
     overflow-y: scroll; } }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
