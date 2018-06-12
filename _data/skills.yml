@@ -12,10 +12,10 @@
       - UART/I2C/SPI/USB
       - MIPI DSI/CSI
       - Display port 
-      - Digital logical circuts
-      - RF design of Cellur phone
+      - Digital logical circuit
+      - RF design of Cellular phone
     secondary:
-      - Audio circuts application
+      - Audio circuit application
 - Systems:
     primary:
       - Yocto Linux 
