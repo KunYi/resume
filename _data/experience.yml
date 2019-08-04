@@ -8,6 +8,8 @@
     - Build Windows 10 IoT Core OS image for Intel/NXP platform
     - Maintenance some utilizes
     - Create new EAPI features for embedded application on IoT era
+    - Use some MCU to create IoT project, STM/Nordic/Redpine signal
+    - Make some AI demo with OpenVINO/ONNX runtime
 
 - org:  UBIQCONN TECHNOLOGY
   role: Senior Software Engineer
