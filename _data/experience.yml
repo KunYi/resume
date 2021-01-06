@@ -1,8 +1,17 @@
+- org: LYDS TECHNOLIGES
+  role: Manager
+  url: none
+  when: Jul 2020 - Dec 2020
+  bullets:
+    - Make a BLE vibration sensor (FLIR SV87-KIT)
+    - Create new embedded Debian BSP for AAEON SRG-3352x IoT Gateway
+    - Support RF certification for AAEON SRG-3352C
+    - Lead a team(4 member)
+
 - org: AAEON TECHNOLOGY
-  role: Technical Supervisor
-  location: XINDIAN, NEW TAIPEI
+  role: Deputy Manager
   url: http://www.aaeon.com.tw/en/
-  when: Jul 2018 - Present
+  when: Jul 2018 - Jun 2020
   bullets:
     - Development windows application and driver
     - Build Windows 10 IoT Core OS image for Intel/NXP platform
@@ -10,10 +19,11 @@
     - Create new EAPI features for embedded application on IoT era
     - Use some MCU to create IoT project, STM/Nordic/Redpine signal
     - Make some AI demo with OpenVINO/ONNX runtime
+    - Create an embedded Debian BSP for NXP i.MX8M Mini
+    - Coaching and leading a team (4 member)
 
 - org:  UBIQCONN TECHNOLOGY
   role: Senior Software Engineer
-  location: NEIHU, TAIPEI 
   url: http://www.ubiqconn.com
   when: Mar 2010 - Dec 2017
   bullets: 
@@ -30,7 +40,6 @@
 
 - org: MILDEF CRETE SYSTEMS
   role: Advanced Software Engineer
-  location: SHENKENG, NEW TAIPEI 
   url: http://eng.crete.com.tw
   when: Nov 2006 - Dec 2009
   bullets:
@@ -46,8 +55,6 @@
 
 - org: DARTS TECHNOLOGY
   role: RF Engineer
-  location: ZHONGHE, NEW TAIPEI 
-  url:
   when: Apr 2004 - Oct 2006
   bullets:
     - Project planning of design, implemented circuit and validation test by RF parts and management deliverables on schedule.
@@ -60,7 +67,6 @@
 
 - org: LITE-ON TECHNOLOGY
   role: RF Engineer
-  location: XINZHU 
   url: http://www.liteon.com
   when: Mar 2003 - Mar 2004
   bullets:
@@ -71,7 +77,6 @@
 
 - org: GOODWILL INSTRUMENT
   role: Firmware Engineer
-  location: XINDIAN, NEW TAIPEI
   url: http://www.gwinstek.com
   when: Sep 1998 - May 2000
   bullets:

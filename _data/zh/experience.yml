@@ -1,8 +1,16 @@
+- org:  聯陽電子/LYDS Tech.
+  role: 經理
+  when: Jul 2020 - Dec 2020
+  bullets:
+    - 完成一個BLE 震動偵測器的韌體設計(FLIR SV87)
+    - 建立一個Debian BSP 供 AAEON SRG-3352x 物聯網網關使用
+    - 協助 AAEON SRG-3352C 物聯網網關的RF認證測試 (WIFI/Bluetooth)
+    - 帶領一個4個人的團隊
+
 - org:  研揚科技/AAEON TECHNOLOGY
-  role: 技術課長
-  location: 新北新店
+  role: 副理
   url: http://www.aaeon.com.tw
-  when: Jul 2018 - Present
+  when: Jul 2018 - Jun 2020
   bullets:
     - 負責Windows 應用工具與驅動程式開發
     - 負責生產Windows 10 IoT Core 系統影像檔，有INTEL/NXP i.MX6平台經驗
@@ -10,10 +18,11 @@
     - 發展新的軟體功能，如擴展新的EAPI(Embedded Application Interface)功能, 讓其適合物聯網世代
     - 數個 MCU/IoT 專案經驗, 使用Mbed/FreeRTOS   
     - 建立數個 AI 實驗專案, 使用 OpenVINO/ONNX runtime
+    - 在NXP i.MX8M mini平台上, 完成某個客製嵌入式Debian Linux系統
+    - 帶領一個4人的團隊
 
 - org:  攸泰科技/UBIQCONN TECHNOLOGY
   role: 資深軟體工程師
-  location: 台北內湖
   url: http://www.ubiqconn.com
   when: Mar 2010 - Dec 2017
   bullets: 
@@ -26,7 +35,6 @@
 
 - org: 茂訊電腦/MILDEF CRETE SYSTEMS
   role: 高級軟體工程師
-  location: 新北深坑
   url: http://eng.crete.com.tw
   when: Nov 2006 - Dec 2009
   bullets: 
@@ -37,8 +45,6 @@
 
 - org: 達智科技/DARTS TECHNOLOGY
   role: 射頻工程師
-  location: 新北中和
-  url:
   when: Apr 2004 - Oct 2006
   bullets:
     - 負責專案進度關於射頻方面規劃
@@ -48,7 +54,6 @@
 
 - org: 光寶科技/LITEON TECHNOLOGY
   role: 射頻工程師
-  location: 新竹市
   url: http://www.liteon.com
   when: Mar 2003 - Mar 2004
   bullets:
@@ -58,7 +63,6 @@
 
 - org: 固緯電子/GOODWILL INSTRUMENT
   role: 韌體工程師
-  location: 新北新店
   url: http://www.gwinstek.com
   when: Sep 1998 - May 2000
   bullets:
