@@ -4,9 +4,11 @@
   when: Jul 2020 - Dec 2020
   bullets:
     - Make a BLE vibration sensor (FLIR SV87-KIT)
-    - Create new embedded Debian BSP for AAEON SRG-3352x IoT Gateway
+    - Create new embedded  <a class="fab fa-github" href="https://github.com/AaeonIot/meta-srg52x">Debian Buster BSP</a> for AAEON SRG-3352x IoT Gateway(TI AM3352)
     - Support RF certification for AAEON SRG-3352C
     - Lead a team(4 member)
+    - <a class="fab fa-github" href="https://github.com/aaeon-kunyi/meta-srg-im8p">create SRG-IM8P Yocto BSP support swupdate(OTA)/secure boot (NXP i.MX8M Plus)</a>
+    - <a href="https://www.arm.com/zh-tw/why-arm/architecture/systems/systemready-certification-program/ir">support SRG-IM8P to get SystemReady IR certificate</a>
 
 - org: AAEON TECHNOLOGY
   role: Deputy Manager
@@ -26,7 +28,7 @@
   role: Senior Software Engineer
   url: http://www.ubiqconn.com
   when: Mar 2010 - Dec 2017
-  bullets: 
+  bullets:
     - Handling an embedded linux project to delivery on schedule. visit <a href="https://www.evoko.se/products/evoko-liso/">Evoko Liso</a>, please.
     - Bring-up Qualcomm 8960 platform. debugging and troubleshooting include display, bootloader and peripherals.
     - Implemented a custom service with special hardware for Android 7/8. include Kernel/HAL/Framework
@@ -81,4 +83,3 @@
   when: Sep 1998 - May 2000
   bullets:
     - Developed an ODM project. Successfully built a digital voice of fire alarm of public address system to market.
-

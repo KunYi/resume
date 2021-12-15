@@ -3,9 +3,11 @@
   when: Jul 2020 - Dec 2020
   bullets:
     - 完成一個BLE 震動偵測器的韌體設計(FLIR SV87)
-    - 建立一個Debian BSP 供 AAEON SRG-3352x 物聯網網關使用
+    - 建立一個<a class="fab fa-github" href="https://github.com/AaeonIot/meta-srg52x">Debian Buster BSP </a>供 AAEON SRG-3352x 物聯網網關使用(TI AM3352)
     - 協助 AAEON SRG-3352C 物聯網網關的RF認證測試 (WIFI/Bluetooth)
     - 帶領一個4個人的團隊
+    - <a class="fab fa-github" href="https://github.com/aaeon-kunyi/meta-srg-im8p">建立一個SRG-IM8P Yocto BSP(NXP i.MX8M Plus)</a>
+    - <a href="https://www.arm.com/zh-tw/why-arm/architecture/systems/systemready-certification-program/ir">取得SRG-IM8P的System IR認證</a>
 
 - org:  研揚科技/AAEON TECHNOLOGY
   role: 副理
@@ -16,7 +18,7 @@
     - 負責生產Windows 10 IoT Core 系統影像檔，有INTEL/NXP i.MX6平台經驗
     - 維護既有工具程式如更新BIOS工具
     - 發展新的軟體功能，如擴展新的EAPI(Embedded Application Interface)功能, 讓其適合物聯網世代
-    - 數個 MCU/IoT 專案經驗, 使用Mbed/FreeRTOS   
+    - 數個 MCU/IoT 專案經驗, 使用Mbed/FreeRTOS
     - 建立數個 AI 實驗專案, 使用 OpenVINO/ONNX runtime
     - 在NXP i.MX8M mini平台上, 完成某個客製嵌入式Debian Linux系統
     - 帶領一個4人的團隊
@@ -25,7 +27,7 @@
   role: 資深軟體工程師
   url: http://www.ubiqconn.com
   when: Mar 2010 - Dec 2017
-  bullets: 
+  bullets:
     - 與北歐客戶合作完成Embedded Linux 系統出貨，系統平台為i.MX6 。主要負責為BSP與Middleware
     - 協助QUALCOMM S820平台的Android 7/8的Bringup 與客戶需求的Service/SDK實作
     - 基於TI OMAP4/Android 4.x 與同事合作完成數個工業平板量產，並取得GMS認證
@@ -37,7 +39,7 @@
   role: 高級軟體工程師
   url: http://eng.crete.com.tw
   when: Nov 2006 - Dec 2009
-  bullets: 
+  bullets:
     - 負責基於PXA 270 的Windows Mobile/Windows CE 的BSP工作與處理客戶問題
     - 基於INTEL ATOM平台的BIOS與系統Bringup
     - 負責將基於Windows Mobile 5的BSP升級到6.1，並取得Windows Logo Test 認證
@@ -68,4 +70,3 @@
   bullets:
     - 負責硬體與韌體設計
     - 成功完成與PHILIPS 的ODM業務緊急廣播系統，該產品順利量產，最後PHILIPS出脫業務賣給BOSCH
-
