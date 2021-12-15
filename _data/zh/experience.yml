@@ -11,7 +11,7 @@
 
 - org:  研揚科技/AAEON TECHNOLOGY
   role: 副理
-  url: http://www.aaeon.com.tw
+  url: http://www.aaeon.com
   when: Jul 2018 - Jun 2020
   bullets:
     - 負責Windows 應用工具與驅動程式開發
@@ -37,7 +37,7 @@
 
 - org: 茂訊電腦/MILDEF CRETE SYSTEMS
   role: 高級軟體工程師
-  url: http://eng.crete.com.tw
+  url: http://www.mildef.com.tw
   when: Nov 2006 - Dec 2009
   bullets:
     - 負責基於PXA 270 的Windows Mobile/Windows CE 的BSP工作與處理客戶問題

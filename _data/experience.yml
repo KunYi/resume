@@ -1,6 +1,5 @@
 - org: LYDS TECHNOLIGES
   role: Manager
-  url: none
   when: Jul 2020 - Dec 2020
   bullets:
     - Make a BLE vibration sensor (FLIR SV87-KIT)
@@ -12,7 +11,7 @@
 
 - org: AAEON TECHNOLOGY
   role: Deputy Manager
-  url: http://www.aaeon.com.tw/en/
+  url: http://www.aaeon.com
   when: Jul 2018 - Jun 2020
   bullets:
     - Development windows application and driver
@@ -42,7 +41,7 @@
 
 - org: MILDEF CRETE SYSTEMS
   role: Advanced Software Engineer
-  url: http://eng.crete.com.tw
+  url: http://www.mildef.com.tw
   when: Nov 2006 - Dec 2009
   bullets:
     - Migration Windows Mobile 5 BSP to Windows Mobile 6.1 and got LTK certificate.
